@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(191, 191, 205);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.weatherApp{
+    width: 390px;
+    min-height: 300px;
+    border: none;
+    background:linear-gradient(66deg,rgb(243, 243, 168),lightpink,lightblue);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.searchBox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+input{
+    flex: 0.6;
+    padding: 8px;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    margin: 10px;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+button{
+    margin-top: 9px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+
+button img{
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.weatherDetails{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    user-select: none;
+    cursor: pointer;
+}
+
+#weatherImg{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+#weatherImg{
+    visibility: hidden;
+}
+
+.weatherDetails h2{
+    margin: 10px;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.weatherDetails .error{
+    text-transform: capitalize;
+    color: black;
+    font-size: 25px;
+}
+
+.moreInformation{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.moreInformation .wind img{
+    width: 100px;
+    height: 100px;
+}
+
+.moreInformation .wind h2{
+   margin: 10px;
+}
+
+.moreInformation .wind p{
+    margin: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.moreInformation .humidity img{
+    width: 100px;
+    height: 100px;
+}
+
+.moreInformation .humidity h2{
+   margin: 10px;
+}
+
+.moreInformation .humidity p{
+    margin: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.moreInformation{
+    visibility: hidden;
+}
+
+ /* a is inline tag that'why we used display block */
+.link a{
+    display: block;
+    margin-top: 120px;
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+    user-select: none;
+}
+ 

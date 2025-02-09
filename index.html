@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Weather App </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="weatherApp">
+        
+            <div class="searchBox">
+                <input type="text" value="" placeholder="please enter city name..." spellcheck="false">
+                <button class="search-btn"><img src="image/search.png" alt="image of button"></button>
+            </div>
+
+            <!-- Api website link -->
+            <div class="link">
+                <a href="https://openweathermap.org" target="_blank">weather api origin</a>
+            </div>
+
+            <div class="weatherDetails">
+                <img src="" alt="image of weather condition" id="weatherImg">
+                <h2 class="temp"></h2>
+                <h2 class="city-name"></h2>
+                <p class="error"></p>
+            </div>
+
+            <div class="moreInformation">
+                <div class="wind">
+                    <img src="image/wind.png" alt="image of wind">
+                    <h2 class="wind-speed"></h2>
+                    <p>wind speed</p>
+                </div>
+
+                <div class="humidity">
+                    <img src="image/humidity.png" alt="image of humidity">
+                    <h2 id="humidity-percentage"></h2>
+                    <p>humidity</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
