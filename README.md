@@ -12,6 +12,12 @@ Features ->
 (5). Added a link of weather origin API
 
 How to install and run this project ->
+(1). click the green code button
+(2). click the download zip to download the entire project as a compressed file
+(3). then click right on the zip download file and click extract file
+(4). then open any code editor(vs code) and open the extract file 
+(5). open the project with live server or broswer
+(6). make sure your pc(system) is connect with Internet 
 
 
 
